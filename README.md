@@ -45,7 +45,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 - [x] You are creating a project from scratch! There is no initial project from where to start.
 - [x] Using the wizard in IntelliJ, create a Java Spring Application
   - [x] Name the application piggybank
-  - [ ] Steps to remember in generating the initial application
+  - [x] Steps to remember in generating the initial application
     - [x] Set the Group and Artifact Name
     - [x] Set that this is a Maven Project
     - [x] Select the proper Java Version
@@ -57,7 +57,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
       - [x] update the applications.properties configuration file
       - [x] add the data.sql file
       - [x] create the necessary packages (at least 3 are needed) and classes
-- [ ] Create a model Coin to represent the table for the piggy bank
+- [x] Create a model Coin to represent the table for the piggy bank
   - Each row in the table contains: (use the provided data.sql as a guide)
     - The number of coins in this group
     - The face value of the coins in the group
