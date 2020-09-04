@@ -36,15 +36,15 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 - [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [x] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [x] Create the proper directory structure for developing a Java Application
-- [ ] Push commits: `git push origin <firstName-lastName>`
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [x] Push commits: `git push origin <firstName-lastName>`
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
-- [ ] You are creating a project from scratch! There is no initial project from where to start.
+- [x] You are creating a project from scratch! There is no initial project from where to start.
 - [ ] Using the wizard in IntelliJ, create a Java Spring Application
-  - [ ] Name the application piggybank
+  - [x] Name the application piggybank
   - [ ] Steps to remember in generating the initial application
     - [ ] Set the Group and Artifact Name
     - [ ] Set that this is a Maven Project
