@@ -15,7 +15,6 @@ import java.util.List;
 @RestController
 public class CoinController {
 
-
     @Autowired
     private CoinRepository coinrepos;
 
@@ -37,8 +36,13 @@ public class CoinController {
 
         coinrepos.findAll().iterator().forEachRemaining(myList::add);
 
-        
-
+        myList.forEach(c -> {
+            if (c.getQuantity() > 1) {
+                System.out.println(c.getQuantity() + " " + c.getNameplural());
+            } else {
+                System.out.println(c.getQuantity() + " " + c.getName());
+            }
+        });
 
         double total = 0.0;
         for (Coin c : myList) {
@@ -46,6 +50,7 @@ public class CoinController {
         }
 
         System.out.println("The piggybank holds " + total);
+
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
